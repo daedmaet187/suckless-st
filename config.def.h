@@ -120,8 +120,7 @@ static const char *colorname[] = {
 	"#9164d1",
 	"#f1fa8c",
 
-	/*"#bd93f9",*/
-	/*"#8f5adb",*/
+	/*"#bd93f9", */ /* original Dracula - purple */
 
     /* Gruvbox */
 
@@ -161,13 +160,14 @@ static const char *colorname[] = {
     [255] = 0,
 
     /* more colors can be added after 255 to use with DefaultXX */
-    /* "#add8e6",*/ /* 256 -> cursor */
-    "#44475a",
+    /*"#add8e6",*/ /* 256 -> cursor */ /* used with Gruvbox */
+    "#6b6e82",
+    /*"#44475a",*/ /* original Dracula - current line */
     "#555555", /* 257 -> rev cursor*/
     "#282a36",
     "#f8f8f2",
-    /* "#282828", */ /* 258 -> bg */ 
-    /* "#ebdbb2", */ /* 259 -> fg */
+    /* "#282828", */ /* 258 -> bg */ /* used with Gruvbox */ 
+    /* "#ebdbb2", */ /* 259 -> fg */ /* used with Gruvbox */
 };
 
 /*
